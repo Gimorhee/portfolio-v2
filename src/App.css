@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Poiret+One|Shadows+Into+Light|Source+Sans+Pro:200,300,400,600,700,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #103c42;
+}
+
+body {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+  font-family: "Poiret One", cursive;
+}
+
+.Header {
+  margin: 275px 50px 50px 50px;
+  color: #fff;
+}
+
+.Header h1 {
+  font-weight: 300;
+  font-size: 75px;
+  margin-bottom: 120px;
+}
+
+.Header h2 {
+  font-weight: 300;
+  font-size: 60px;
+  max-width: 925px;
+  margin-bottom: 120px;
+  line-height: 1.5;
+}
+
+.Header p {
+  font-size: 40px;
+  margin-bottom: 250px;
+}
+
+.Header p a {
+  text-decoration: none;
+  color: #05a19c;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+
+.Header p a:hover {
+  border-bottom: 3px solid #05a19c;
+}
+
+@media only screen and (max-width: 1200px) {
+  * {
+    background: red !important;
+  }
+}
+/*# sourceMappingURL=App.css.map */
