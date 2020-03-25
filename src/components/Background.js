@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../css/background/background.css";
+
 function Background() {
   return (
     <div className="Background">

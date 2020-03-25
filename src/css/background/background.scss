@@ -1,0 +1,53 @@
+// BACKGROUND COMPONENT
+.Background {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 12vh;
+
+  .outterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+
+    span {
+      color: #05a19c;
+    }
+
+    .Bg-Header {
+      color: #05a19c;
+      font-weight: 900;
+      font-size: 22px;
+      margin: 25px;
+      letter-spacing: 3px;
+    }
+
+    .Bg-Container {
+      color: #aaaaaa;
+      max-width: 950px;
+      line-height: 1.5;
+      font-size: 22px;
+      margin: 25px;
+
+      a {
+        text-decoration: none;
+        color: #05a19c;
+        font-weight: 900;
+        font-size: 20px;
+
+        &:hover {
+          border-bottom: 2px solid #05a19c;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Background {
+    .outterContainer {
+      display: flex;
+      flex-direction: column;
+      margin: 0 15px;
+    }
+  }
+}
