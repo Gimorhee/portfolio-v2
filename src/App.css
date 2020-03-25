@@ -15,27 +15,27 @@ body {
 }
 
 .Header {
-  margin: 275px 50px 50px 50px;
+  margin: 16vh 50px 50px 50px;
   color: #fff;
 }
 
 .Header h1 {
   font-weight: 300;
-  font-size: 75px;
-  margin-bottom: 120px;
+  font-size: 50px;
+  margin-bottom: 12vh;
 }
 
 .Header h2 {
   font-weight: 300;
-  font-size: 60px;
-  max-width: 925px;
-  margin-bottom: 120px;
+  font-size: 45px;
+  max-width: 900px;
+  margin-bottom: 12vh;
   line-height: 1.5;
 }
 
 .Header p {
-  font-size: 40px;
-  margin-bottom: 250px;
+  font-size: 30px;
+  margin-bottom: 30vh;
 }
 
 .Header p a {
@@ -46,12 +46,42 @@ body {
 }
 
 .Header p a:hover {
-  border-bottom: 3px solid #05a19c;
+  border-bottom: 1px solid #05a19c;
 }
 
-@media only screen and (max-width: 1200px) {
-  * {
-    background: red !important;
+@media only screen and (max-width: 1024px) {
+  .Header h1 {
+    font-size: 45px;
+  }
+  .Header h2 {
+    font-size: 40px;
+  }
+  .Header p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Header h1 {
+    font-size: 41px;
+  }
+  .Header h2 {
+    font-size: 36px;
+  }
+  .Header p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Header h1 {
+    font-size: 37px;
+  }
+  .Header h2 {
+    font-size: 32px;
+  }
+  .Header p {
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=App.css.map */
