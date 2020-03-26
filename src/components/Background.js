@@ -11,14 +11,23 @@ function Background() {
           <p>
             {" "}
             I'm currently working as a Frontend Developer at{" "}
-            <a href="https://onikon.com/">Onikon Creative Inc.</a> creating
-            websites and services for the web with some awesome people. I am a
-            formal Product Engineer graduated from{" "}
-            <a href="https://www.ubc.ca/">UBC</a> and recently graduated from{" "}
-            <a href="https://www.lighthouselabs.ca/">Lighthouse Labs</a> and
-            attained a Web Development Diploma. I have also worked as a Web
+            <a href="https://onikon.com/" target="_blank">
+              Onikon Creative Inc.
+            </a>{" "}
+            creating websites and services for the web with some awesome people.
+            I am a formal Product Engineer graduated from{" "}
+            <a href="https://www.ubc.ca/" target="_blank">
+              UBC
+            </a>{" "}
+            and recently graduated from{" "}
+            <a href="https://www.lighthouselabs.ca/" target="_blank">
+              Lighthouse Labs
+            </a>{" "}
+            and attained a Web Development Diploma. I have also worked as a Web
             Developer Intern at{" "}
-            <a href="https://www.kater.com/">Kater Technologies Inc.</a>
+            <a href="https://www.kater.com/" target="_blank">
+              Kater Technologies Inc.
+            </a>
           </p>
 
           <br />

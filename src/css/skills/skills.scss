@@ -27,13 +27,18 @@
     .Skill-Container {
       padding: 0 15px;
       width: calc(20% - 30px);
+      h4 {
+        color: #05a19c;
+        font-size: 21px;
+      }
       ul {
         list-style: none;
 
         li {
           font-size: 17px;
-          margin: 5px 0;
+          margin: 10px 0;
           color: #afafbf;
+          width: calc(100% + 20px);
         }
       }
     }

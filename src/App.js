@@ -3,6 +3,7 @@ import Switcher from "./components/Switcher";
 import Header from "./components/Header";
 import Background from "./components/Background";
 import Skills from "./components/Skills";
+import Experiences from "./components/Experiences";
 
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Background />
       <Skills />
+      <Experiences />
     </div>
   );
 }

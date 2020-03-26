@@ -2,8 +2,7 @@
 .Background {
   max-width: 1200px;
   margin: auto;
-  margin-bottom: 12vh;
-
+  margin-bottom: 150px;
   .outterContainer {
     display: flex;
     justify-content: space-between;
@@ -11,6 +10,7 @@
 
     span {
       color: #05a19c;
+      font-weight: 900;
     }
 
     .Bg-Header {

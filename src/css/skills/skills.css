@@ -38,14 +38,20 @@
   width: calc(20% - 30px);
 }
 
+.Skills .Skills-Container .Skill-Container h4 {
+  color: #05a19c;
+  font-size: 21px;
+}
+
 .Skills .Skills-Container .Skill-Container ul {
   list-style: none;
 }
 
 .Skills .Skills-Container .Skill-Container ul li {
   font-size: 17px;
-  margin: 5px 0;
+  margin: 10px 0;
   color: #afafbf;
+  width: calc(100% + 20px);
 }
 
 @media screen and (max-width: 1024px) {

@@ -36,7 +36,9 @@ function Header() {
       </h2>
       <p>
         Get in touch 👉{" "}
-        <a href="malto:dongyunrhee@gmail.com">dongyunrhee@gmail.com</a>
+        <a href="malto:dongyunrhee@gmail.com" target="_blank">
+          dongyunrhee@gmail.com
+        </a>
       </p>
     </div>
   );

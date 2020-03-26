@@ -10,7 +10,7 @@ function Skills() {
         <div className="Skill-Container">
           <h4>LANGUAGES</h4>
           <ul>
-            <li>JavaScript (ES6)</li>
+            <li>JavaScript(ES6)</li>
             <li>HTML5</li>
             <li>(S)CSS</li>
             <li>OOP</li>

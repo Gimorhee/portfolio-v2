@@ -1,7 +1,7 @@
 .Background {
   max-width: 1200px;
   margin: auto;
-  margin-bottom: 12vh;
+  margin-bottom: 150px;
 }
 
 .Background .outterContainer {
@@ -16,6 +16,7 @@
 
 .Background .outterContainer span {
   color: #05a19c;
+  font-weight: 900;
 }
 
 .Background .outterContainer .Bg-Header {
