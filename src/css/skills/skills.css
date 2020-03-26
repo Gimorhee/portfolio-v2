@@ -13,12 +13,12 @@
   color: #05a19c;
   font-weight: 900;
   font-size: 22px;
-  margin: 25px;
+  padding: 25px;
   letter-spacing: 3px;
 }
 
 .Skills .Skills-Container {
-  width: calc(100% + 30px);
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +35,7 @@
 }
 
 .Skills .Skills-Container .Skill-Container {
-  margin: 0 15px;
+  padding: 0 15px;
   width: calc(20% - 30px);
 }
 
@@ -66,20 +66,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .Skills .Skills-Container .Skill-Container {
-    width: calc(33.3333% - 30px);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .Skills {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .Skills .Skills-Container {
+    padding: 15px;
   }
   .Skills .Skills-Container .Skill-Container {
     width: calc(50% - 30px);

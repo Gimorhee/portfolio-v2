@@ -10,12 +10,12 @@
     color: #05a19c;
     font-weight: 900;
     font-size: 22px;
-    margin: 25px;
+    padding: 25px;
     letter-spacing: 3px;
   }
 
   .Skills-Container {
-    width: calc(100% + 30px);
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     margin: 25px;
 
     .Skill-Container {
-      margin: 0 15px;
+      padding: 0 15px;
       width: calc(20% - 30px);
       ul {
         list-style: none;
@@ -57,18 +57,7 @@
     display: flex;
     flex-direction: column;
     .Skills-Container {
-      .Skill-Container {
-        width: calc(33.3333% - 30px);
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .Skills {
-    display: flex;
-    flex-direction: column;
-    .Skills-Container {
+      padding: 15px;
       .Skill-Container {
         width: calc(50% - 30px);
       }

@@ -21,7 +21,7 @@
 .Background .outterContainer .Bg-Header {
   color: #05a19c;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 20px;
   margin: 25px;
   letter-spacing: 3px;
 }
@@ -30,7 +30,7 @@
   color: #aaaaaa;
   max-width: 950px;
   line-height: 1.5;
-  font-size: 22px;
+  font-size: 20px;
   margin: 25px;
 }
 
@@ -55,6 +55,24 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 15px;
+  }
+  .Background .outterContainer .Bg-Container {
+    font-size: 18px;
+  }
+  .Background .outterContainer .Bg-Container a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Background .outterContainer .Bg-Header {
+    font-size: 20px;
+  }
+  .Background .outterContainer .Bg-Container {
+    font-size: 17px;
+  }
+  .Background .outterContainer .Bg-Container a {
+    font-size: 17px;
   }
 }
 /*# sourceMappingURL=background.css.map */
