@@ -4,7 +4,7 @@ import "../css/header/header.css";
 
 function Header() {
   return (
-    <div className="Header">
+    <div class="Header">
       <h1>
         Hello! <span className="wave">👋</span>
       </h1>

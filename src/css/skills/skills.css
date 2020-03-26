@@ -13,8 +13,8 @@
   color: #05a19c;
   font-weight: 900;
   font-size: 22px;
-  padding: 25px;
   letter-spacing: 3px;
+  padding: 0 30px 40px;
 }
 
 .Skills .Skills-Container {
@@ -31,7 +31,6 @@
   max-width: 950px;
   line-height: 1.5;
   font-size: 22px;
-  margin: 25px;
 }
 
 .Skills .Skills-Container .Skill-Container {
