@@ -1,13 +1,23 @@
 .Header {
-  margin: 13vh 50px 50px 50px;
-  color: #e7e7e7;
-  height: 90vh;
+  color: #fff;
+  height: 100vh;
+  max-width: 1440px;
+  padding: 120px 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .Header h1 {
   font-weight: 300;
-  font-size: 45px;
-  margin-bottom: 10vh;
+  font-size: 2.4rem;
+  margin: 30px 0;
 }
 
 .Header h1 span.wave {
@@ -86,20 +96,21 @@
 
 .Header h2 {
   font-weight: 300;
-  font-size: 40px;
+  font-size: 2.3rem;
   max-width: 900px;
-  margin-bottom: 10vh;
   line-height: 1.5;
+  margin: 30px 0;
 }
 
 .Header h2 h3 {
   font-weight: 300;
-  font-size: 40px;
+  font-size: 2.3rem;
   margin-top: 15px;
 }
 
 .Header p {
-  font-size: 30px;
+  font-size: 1.5rem;
+  margin: 30px 0;
 }
 
 .Header p a {
@@ -118,7 +129,7 @@
   overflow: hidden;
   margin-top: 20px;
   font-family: "Share Tech Mono", monospace;
-  font-size: 35px;
+  font-size: 2.2rem;
   line-height: 40px;
   color: #fdcb6e;
 }
@@ -267,76 +278,90 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .Header {
+    padding: 120px 75px;
+  }
   .Header h1 {
-    font-size: 40px;
+    font-size: 2rem;
   }
   .Header h2 {
-    font-size: 35px;
+    font-size: 1.8rem;
   }
   .Header h2 h3 {
-    font-size: 35px;
+    font-size: 1.8rem;
     margin-top: 25px;
   }
   .Header p {
-    font-size: 25px;
+    font-size: 1.35rem;
   }
   .Header .content {
-    font-size: 30px;
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .Header {
+    padding: 120px 55px;
+  }
   .Header h1 {
-    font-size: 37px;
+    font-size: 1.9rem;
   }
   .Header h2 {
-    font-size: 32px;
+    font-size: 1.7rem;
   }
   .Header h2 h3 {
-    font-size: 32px;
+    font-size: 1.7rem;
     margin-top: 25px;
   }
   .Header p {
-    font-size: 25px;
+    font-size: 1.3rem;
   }
   .Header .content {
-    font-size: 30px;
+    font-size: 1.75rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
+  .Header {
+    padding: 120px 45px;
+  }
   .Header h1 {
-    font-size: 32px;
+    font-size: 1.6rem;
   }
   .Header h2 {
-    font-size: 29px;
+    font-size: 1.5rem;
   }
   .Header h2 h3 {
-    font-size: 29px;
+    font-size: 1.5rem;
+    margin-top: 40px;
   }
   .Header p {
-    font-size: 23px;
+    font-size: 1.3rem;
   }
   .Header .content {
-    font-size: 25px;
+    font-size: 1.3rem;
   }
 }
 
 @media only screen and (max-width: 375px) {
+  .Header {
+    padding: 120px 35px;
+  }
   .Header h1 {
-    font-size: 25px;
+    font-size: 1.4rem;
   }
   .Header h2 {
-    font-size: 22px;
+    font-size: 1.3rem;
   }
   .Header h2 h3 {
-    font-size: 22px;
+    font-size: 1.3rem;
+    padding-top: 20px;
   }
   .Header p {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
   .Header .content {
-    font-size: 21px;
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=header.css.map */
