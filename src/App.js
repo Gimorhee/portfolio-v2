@@ -5,6 +5,7 @@ import Background from "./components/Background";
 import Skills from "./components/Skills";
 import Experiences from "./components/Experiences";
 import OtherProjects from "./components/projects/OtherProjects";
+import SchoolProjects from "./components/projects/SchoolProjects";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Experiences />
       <OtherProjects />
+      <SchoolProjects />
     </div>
   );
 }
