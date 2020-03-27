@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+// OTHER PROJECTS COMPONENT
+.OtherProjects {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 80px 150px 80px;
+
+  .Project-Header {
+    color: #05a19c;
+    font-weight: 900;
+    font-size: 21px;
+    letter-spacing: 3px;
+  }
+
+  .OtherProjects-Container {
+    width: 100%;
+    max-width: 750px;
+
+    .OtherProject-Container {
+      margin-bottom: 50px;
+
+      .ProjectName-Container {
+        margin-bottom: 15px;
+
+        .Project-Name {
+          color: #05a19c;
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+
+      .Project-Info {
+        color: #afafbf;
+        margin-bottom: 15px;
+        font-size: 14.5px;
+      }
+
+      .Project-Stacks {
+        .Project-Stack {
+          font-family: "Inconsolata", monospace;
+          color: #05a19c;
+          border: 1px solid #05a19c;
+          border-radius: 3px;
+          margin: 3px 7px 3px 0;
+          padding: 5px 7px;
+          font-size: 0.8rem;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
