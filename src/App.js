@@ -11,8 +11,17 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
+  const goTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="App">
+      <div className="ButtonContainer" onClick={() => goTop()}>
+        <button className="MoveTopButton">
+          <span className="MoveTop">☝</span>
+        </button>
+      </div>
       <Switcher />
       <Header />
       <Background />
