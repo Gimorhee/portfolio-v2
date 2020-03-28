@@ -103,12 +103,21 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .SchoolProjects {
+    margin-bottom: 60px;
+  }
   .SchoolProjects .Project-Header {
     margin-bottom: 15px;
   }
   .SchoolProjects .Project-Note {
     max-width: 500px;
     margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .SchoolProjects {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=projects.css.map */

@@ -99,6 +99,7 @@
 
 @media only screen and (max-width: 767px) {
   .SchoolProjects {
+    margin-bottom: 60px;
     .Project-Header {
       margin-bottom: 15px;
     }
@@ -107,5 +108,11 @@
       max-width: 500px;
       margin-bottom: 35px;
     }
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .SchoolProjects {
+    margin-bottom: 30px;
   }
 }
