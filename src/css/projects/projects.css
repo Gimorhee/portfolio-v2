@@ -1,4 +1,124 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+.FeaturedProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 100px 80px;
+}
+
+.FeaturedProjects .Project-Header {
+  color: #05a19c;
+  font-weight: 900;
+  font-size: 21px;
+  letter-spacing: 3px;
+  padding: 0 15px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container {
+  width: 100%;
+  max-width: 850px;
+  padding: 0 25px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .OnikonProject-Header {
+  color: #05a19c;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container {
+  width: 100%;
+  padding-bottom: 50%;
+  -webkit-transition: 0.6s ease-in-out all;
+  transition: 0.6s ease-in-out all;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container .Project-Name {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #cae8d5;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container .Single-Inner-Container {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container:hover .Single-Inner-Container {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  bottom: 0;
+  left: 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container:hover .Single-Inner-Container .Single-Inner-Info {
+  opacity: 1;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Container .Single-Container:hover .Single-Project-Header {
+  opacity: 1;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Khanhvo {
+  background-image: url("../../../src/images/khanvho.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Jessi {
+  background-image: url("../../../src/images/jessi.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Alex {
+  background-image: url("../../../src/images/alex.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Bassi {
+  background-image: url("../../../src/images/bassi.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Cory {
+  background-image: url("../../../src/images/cory.png");
+}
+
+@media only screen and (max-width: 1200px) {
+  .FeaturedProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 100px 20px;
+  }
+}
+
 .OtherProjects {
   display: -webkit-box;
   display: -ms-flexbox;

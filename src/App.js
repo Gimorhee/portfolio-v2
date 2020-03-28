@@ -4,8 +4,9 @@ import Header from "./components/Header";
 import Background from "./components/Background";
 import Skills from "./components/Skills";
 import Experiences from "./components/Experiences";
-import OtherProjects from "./components/projects/OtherProjects";
-import SchoolProjects from "./components/projects/SchoolProjects";
+import FeaturedProjects from "./components/projects/featured/FeaturedProjects";
+import OtherProjects from "./components/projects/other/OtherProjects";
+import SchoolProjects from "./components/projects/other/SchoolProjects";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -27,6 +28,7 @@ function App() {
       <Background />
       <Skills />
       <Experiences />
+      <FeaturedProjects />
       <OtherProjects />
       <SchoolProjects />
       <Footer />

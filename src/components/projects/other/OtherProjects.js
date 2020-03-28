@@ -1,7 +1,7 @@
 import React from "react";
 import OtherProject from "./OtherProject";
 
-import "../../css/projects/projects.css";
+import "../../../css/projects/projects.css";
 
 function OtherProjects() {
   return (
