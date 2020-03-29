@@ -25,13 +25,14 @@
   padding: 0 25px;
 }
 
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .OnikonProject-Header {
+.FeaturedProjects .FeaturedProjects-Container .Project-Header {
   color: #05a19c;
   font-size: 21px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-left: 0;
 }
 
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .OnikonProject-Info {
+.FeaturedProjects .FeaturedProjects-Container .Project-Info {
   margin-top: 35px;
   color: #afafbf;
   margin-bottom: 15px;
@@ -39,7 +40,7 @@
   font-size: 15px;
 }
 
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .OnikonProject-Stacks .OnikonProject-Stack {
+.FeaturedProjects .FeaturedProjects-Container .Project-Stacks .Project-Stack {
   font-family: "Inconsolata", monospace;
   color: #05a19c;
   border: 1px solid #05a19c;
@@ -50,7 +51,77 @@
   display: inline-block;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container {
+  overflow: hidden;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 50%;
+  display: block;
+  position: relative;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image .Project-Name {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: #cae8d5;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image:hover .Project-Inner-Background {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  bottom: 0;
+  left: 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image:hover .Project-Name {
+  opacity: 1;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Note {
+  color: #f6d186;
+  margin: 15px 0;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .PlateauProject-Container .Plateau {
+  background-image: url("../../../src/images/plateau.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container {
+  margin-bottom: 80px;
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container {
+  display: block;
   width: 100%;
   padding-bottom: 50%;
   -webkit-transition: 0.6s ease-in-out all;
@@ -78,12 +149,6 @@
           transform: scale(1.05);
 }
 
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container .Single-Inner-Container {
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-}
-
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Single-Inner-Container {
   display: block;
   position: absolute;
@@ -95,14 +160,6 @@
   transition: all 1s;
   bottom: 0;
   left: 0;
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Single-Inner-Container .Single-Inner-Info {
-  opacity: 1;
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Single-Project-Header {
-  opacity: 1;
 }
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Khanhvo {
