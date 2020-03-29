@@ -39,22 +39,22 @@ function OtherProjects() {
           stacks={["HTML", "CSS", "JavaScript", "jQuery"]}
         />
         <OtherProject
-          name="Rock Paper Scissors"
-          link="https://gimorhee.github.io/RockPaperScissors/"
-          info="Simple mini Rock Paper Scissors being played against a Computer who randomly forms one of three shapes."
-          stacks={["HTML", "CSS", "JavaScript", "jQuery"]}
-        />
-        <OtherProject
           name="Drum It"
           link="https://gimorhee.github.io/DrumIt/"
           info="Mini playable Drum set built when I started learning about Vanilla JavaScript. From this project, I learned quite a lot on Vanilla JS and led me to learn jQuery."
           stacks={["HTML", "CSS", "JavaScript", "Vanilla JS"]}
         />
         <OtherProject
-          name="First Personal Page"
-          link="https://gimorhee.github.io/FirstPersonalPage/"
-          info="My first Personal Intro Web-page built when I just started studying on HTML and CSS."
-          stacks={["HTML", "CSS"]}
+          name="Movie Seat Booking"
+          link="https://github.com/Gimorhee/MovieSeatBooking/settings"
+          info="Movie Seat booking application built with Vanilla JavaScript storing data in the local storage."
+          stacks={["HTML", "CSS", "JavaScript", "Local Storage"]}
+        />
+        <OtherProject
+          name="Rock Paper Scissors"
+          link="https://gimorhee.github.io/RockPaperScissors/"
+          info="Simple mini Rock Paper Scissors being played against a Computer who randomly forms one of three shapes."
+          stacks={["HTML", "CSS", "JavaScript", "jQuery"]}
         />
       </div>
     </div>

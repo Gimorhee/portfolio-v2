@@ -29,7 +29,7 @@ function OnikonCarousel() {
     ]
   };
   return (
-    <div className="Onikon-Container">
+    <div className="Onikon-Carousel-Container">
       <Slider {...settings}>
         <a
           className="Single-Container Khanhvo"

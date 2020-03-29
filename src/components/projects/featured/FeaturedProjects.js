@@ -1,5 +1,8 @@
 import React from "react";
-import OnikonCarousel from "./OnikonCarousel";
+
+import OnikonProjects from "./onikon/OnikonProjects";
+
+import "../../../css/projects/projects.css";
 
 function FeaturedProjects() {
   return (
@@ -7,12 +10,7 @@ function FeaturedProjects() {
       <div className="FeaturedProjects">
         <h1 className="Project-Header">FEATURED PROJECTS</h1>
         <div className="FeaturedProjects-Container">
-          <div className="OnikonProject-Container">
-            <h1 className="OnikonProject-Header">
-              Real Estate Agent's Website
-            </h1>
-            <OnikonCarousel />
-          </div>
+          <OnikonProjects />
         </div>
       </div>
     </div>
