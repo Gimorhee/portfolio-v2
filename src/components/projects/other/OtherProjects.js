@@ -11,7 +11,7 @@ function OtherProjects() {
         <OtherProject
           name="LetsChat"
           link="https://react-lets-chat.netlify.com/"
-          info="A real-time caht application built with React, Node, Socket.io where users may create rooms and chat with others online"
+          info="A real-time chat application built with React, Node, Socket.io where users may create rooms and chat with others online"
           stacks={["React", "Node", "Socket.io", "Netlify", "Heroku"]}
         />
         <OtherProject
