@@ -28,7 +28,7 @@ function Experiences() {
         />
         <Experience
           name="INI Solutions"
-          title="Customer Service Representative / IT Technician"
+          title="Software Technician"
           period="Sept 2016 - Aug 2018"
           link="http://www.inipos.com/"
         />

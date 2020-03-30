@@ -7,7 +7,7 @@ import "../../../../css/projects/projects.css";
 function OnikonProjects() {
   return (
     <div className="OnikonProject-Container">
-      <h1 className="Project-Header">Real Estate Agents Website</h1>
+      <h1 className="Project-Header">Real Estate Website</h1>
       <OnikonCarousel />
       <p className="Project-Info">
         These projects are custom built upon our clients' design and

@@ -14,17 +14,16 @@ function Background() {
             <a href="https://onikon.com/" target="_blank">
               Onikon Creative Inc.
             </a>{" "}
-            creating websites and services for the web with some awesome people.
+            creating products and services for the web with some awesome people.
             I am a formal Product Engineer graduated from{" "}
             <a href="https://www.ubc.ca/" target="_blank">
               UBC
             </a>{" "}
-            and recently graduated from{" "}
+            and recently attained a Web Development Diploma from{" "}
             <a href="https://www.lighthouselabs.ca/" target="_blank">
-              Lighthouse Labs
+              Lighthouse Labs.
             </a>{" "}
-            and attained a Web Development Diploma. I have also worked as a Web
-            Developer Intern at{" "}
+            I have also worked as a Web Developer Intern at{" "}
             <a href="https://www.kater.com/" target="_blank">
               Kater Technologies Inc.
             </a>
@@ -34,7 +33,7 @@ function Background() {
 
           <p>
             As a Developer, I truly enjoy bridging the gap between design and
-            engienering — combining my technical knowledge with my keen eye for
+            engineering — combining my technical knowledge with my keen eye for
             design to build a beautiful product. I derive great satisfaction
             from building better, more efficient code as well as working in
             details and designs of the product to achieve superb UX/UI.
