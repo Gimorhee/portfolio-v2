@@ -36,7 +36,7 @@ function Background() {
             As a Developer, I truly enjoy bridging the gap between design and
             engienering — combining my technical knowledge with my keen eye for
             design to build a beautiful product. I derive great satisfaction
-            from buliding better, more efficient code as well as working in
+            from building better, more efficient code as well as working in
             details and designs of the product to achieve superb UX/UI.
           </p>
 
