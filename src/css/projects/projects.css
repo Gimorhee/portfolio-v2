@@ -139,6 +139,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  opacity: 0;
   color: #cae8d5;
   font-size: 30px;
   font-weight: 900;
@@ -160,6 +161,10 @@
   transition: all 1s;
   bottom: 0;
   left: 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Project-Name {
+  opacity: 1;
 }
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Khanhvo {

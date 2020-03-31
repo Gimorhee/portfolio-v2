@@ -38,7 +38,7 @@ function OnikonCarousel() {
         >
           <div className="Single-Inner-Container"></div>
           <span className="Project-Name">
-            <i class="fas fa-external-link-alt"></i>
+            <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
         <a
@@ -48,7 +48,7 @@ function OnikonCarousel() {
         >
           <div className="Single-Inner-Container"></div>
           <span className="Project-Name">
-            <i class="fas fa-external-link-alt"></i>
+            <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
         <a
@@ -58,7 +58,7 @@ function OnikonCarousel() {
         >
           <div className="Single-Inner-Container"></div>
           <span className="Project-Name">
-            <i class="fas fa-external-link-alt"></i>
+            <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
         <a
@@ -68,7 +68,7 @@ function OnikonCarousel() {
         >
           <div className="Single-Inner-Container"></div>
           <span className="Project-Name">
-            <i class="fas fa-external-link-alt"></i>
+            <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
         <a
@@ -78,7 +78,7 @@ function OnikonCarousel() {
         >
           <div className="Single-Inner-Container"></div>
           <span className="Project-Name">
-            <i class="fas fa-external-link-alt"></i>
+            <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
       </Slider>
