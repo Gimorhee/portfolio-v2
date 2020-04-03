@@ -9,6 +9,19 @@ function OtherProjects() {
       <h1 className="Project-Header">OTHER PROJECTS</h1>
       <div className="OtherProjects-Container">
         <OtherProject
+          name="Dollar Tracker"
+          link="https://your-dollar-tracker.herokuapp.com/"
+          info="An expense calculating application built with React for the front and MongoDB for the backend. React Context was used to manage the application states."
+          stacks={[
+            "React",
+            "Context",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Mongoose"
+          ]}
+        />
+        <OtherProject
           name="LetsChat"
           link="https://react-lets-chat.netlify.com/"
           info="A real-time chat application built with React, Node, Socket.io where users may create rooms and chat with others online"
