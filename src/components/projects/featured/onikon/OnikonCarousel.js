@@ -23,14 +23,24 @@ function OnikonCarousel() {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
-      }
-    ]
+          dots: true,
+        },
+      },
+    ],
   };
   return (
     <div className="Onikon-Carousel-Container">
       <Slider {...settings}>
+        <a
+          className="Single-Container Narinder"
+          href="https://new.narinderbains.com/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
         <a
           className="Single-Container Khanhvo"
           href="https://new.khanhvo.ca/"

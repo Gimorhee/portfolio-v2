@@ -145,6 +145,10 @@
   font-weight: 900;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:focus {
+  outline: none;
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -165,6 +169,10 @@
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Project-Name {
   opacity: 1;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Narinder {
+  background-image: url("../../../src/images/narinder.png");
 }
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Khanhvo {

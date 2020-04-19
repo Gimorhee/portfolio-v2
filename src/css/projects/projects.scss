@@ -143,6 +143,10 @@
             font-weight: 900;
           }
 
+          &:focus {
+            outline: none;
+          }
+
           &:hover {
             transform: scale(1.05);
           }
@@ -168,6 +172,10 @@
             }
           }
         }
+      }
+
+      .Narinder {
+        background-image: url("../../../src/images/narinder.png");
       }
 
       .Khanhvo {
