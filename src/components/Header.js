@@ -18,9 +18,7 @@ function Header() {
               <li className="content__container__list__item">
                 Frontend Developer,
               </li>
-              <li className="content__container__list__item">
-                Backend Developer,
-              </li>
+              <li className="content__container__list__item">UI Developer,</li>
               <li className="content__container__list__item">
                 Fullstack Developer,
               </li>

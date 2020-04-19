@@ -12,6 +12,7 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 5px;
 }
 
 .Header h1 {

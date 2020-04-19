@@ -1,7 +1,7 @@
 .Background {
-  max-width: 1200px;
-  margin: auto;
   margin-bottom: 150px;
+  padding: 90px 60px;
+  height: auto;
 }
 
 .Background .outterContainer {
@@ -46,6 +46,24 @@
   border-bottom: 2px solid #05a19c;
 }
 
+@media only screen and (max-width: 1400px) {
+  .Background {
+    padding: 90px 40px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .Background {
+    padding: 80px 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Background {
+    padding: 80px 5px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .Background .outterContainer {
     display: -webkit-box;
@@ -66,6 +84,21 @@
 }
 
 @media only screen and (max-width: 550px) {
+  .Background {
+    padding: 30px 0;
+  }
+  .Background .outterContainer .Bg-Container {
+    font-size: 17px;
+  }
+  .Background .outterContainer .Bg-Container a {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Background {
+    padding: 0;
+  }
   .Background .outterContainer .Bg-Container {
     font-size: 17px;
   }
