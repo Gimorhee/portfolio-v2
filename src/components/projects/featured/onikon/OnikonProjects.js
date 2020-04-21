@@ -10,18 +10,18 @@ function OnikonProjects() {
       <h1 className="Project-Header">Real Estate Website</h1>
       <OnikonCarousel />
       <p className="Project-Info">
-        These projects are custom built upon our clients' design and
-        functionality request from Onikon Creative Inc. I was responsible for
-        developing all UI pages and functionalities and implementing our custom
-        built IDX API Plugins.
+        These projects are built upon our clients' design and functionality
+        requirements at Onikon Creative Inc. I was responsible for developing
+        all UI pages and implementing functionalities, such as, our custom built
+        IDX API Plugins that allows users to retrieve the Real Estate
+        information. Currently, I am working on implementing new designs and
+        features on API Plugnis using Vue and Vuesax 👍.
       </p>
       <div className="Project-Note">
         <p>
-          By working on these projects, I learned a lot on PHP and one of the
-          most famous CMS tools, Wordpress. Plus, my design and CSS skills have
-          been significantly improved and I am currently working on implementing
-          new designs and features on our custom built IDX API plugins using Vue
-          and Vuesax 👍.
+          Building these projects provided me a strong experience on one of the
+          most famous CMS tools, Wordpress and PHP. Plus, my design and CSS
+          skills have been significantly improved.
         </p>
       </div>
       <div className="Project-Stacks">

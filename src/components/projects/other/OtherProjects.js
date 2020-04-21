@@ -18,7 +18,7 @@ function OtherProjects() {
             "Node",
             "Express",
             "MongoDB",
-            "Mongoose"
+            "Mongoose",
           ]}
         />
         <OtherProject
@@ -59,7 +59,7 @@ function OtherProjects() {
         />
         <OtherProject
           name="Movie Seat Booking"
-          link="https://github.com/Gimorhee/MovieSeatBooking/settings"
+          link="https://gimorhee.github.io/MovieSeatBooking/"
           info="Movie Seat booking application built with Vanilla JavaScript storing data in the local storage."
           stacks={["HTML", "CSS", "JavaScript", "Local Storage"]}
         />
