@@ -109,15 +109,19 @@
     }
 
     // PLATEAU PROJECT COMPONENT
-    .PlateauProject-Container {
+    .FeaturedProject-Container {
       .Plateau {
         background-image: url("../../../src/images/plateau.png");
+      }
+
+      .Booster {
+        background-image: url("../../../src/images/booster.png");
       }
     }
 
     // ONIKON PROJECT COMPONENT
     .OnikonProject-Container {
-      margin-bottom: 80px;
+      margin: 70px 0;
 
       .Onikon-Carousel-Container {
         .Single-Container {

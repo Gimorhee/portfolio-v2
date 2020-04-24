@@ -4,7 +4,7 @@ import "../../../css/projects/projects.css";
 
 function PlateauProject() {
   return (
-    <div className="PlateauProject-Container">
+    <div className="FeaturedProject-Container">
       <h1 className="Project-Header">Plateau</h1>
       <div className="Project-Image-Container">
         <a
@@ -30,9 +30,8 @@ function PlateauProject() {
         <p>
           By working on this fullstack application, I have learned a lot on MERN
           stacks. Plus, writing my own backend APIs (authentication, order,
-          payment, etc) and using 3rd party library definitely provided me good
-          experience. Please note that my current React and CSS skills are
-          significantly improved 😎.
+          payment, etc) and using 3rd party library definitely provided me a
+          good experience.
         </p>
       </div>
       <div className="Project-Stacks">

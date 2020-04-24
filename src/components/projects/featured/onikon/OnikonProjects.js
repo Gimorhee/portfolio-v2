@@ -15,7 +15,7 @@ function OnikonProjects() {
         all UI pages and implementing functionalities, such as, our custom built
         IDX API Plugins that allows users to retrieve the Real Estate
         information. Currently, I am working on implementing new designs and
-        features on API Plugnis using Vue and Vuesax 👍.
+        features on API Plugins using Vue and Vuesax 👍.
       </p>
       <div className="Project-Note">
         <p>

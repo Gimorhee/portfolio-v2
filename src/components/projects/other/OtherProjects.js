@@ -22,16 +22,16 @@ function OtherProjects() {
           ]}
         />
         <OtherProject
-          name="LetsChat"
-          link="https://react-lets-chat.netlify.com/"
-          info="A real-time chat application built with React, Node, Socket.io where users may create rooms and chat with others online"
-          stacks={["React", "Node", "Socket.io", "Netlify", "Heroku"]}
-        />
-        <OtherProject
           name="Plenty of Dogs"
           link="https://gimorhee.github.io/PlentyofDogs/"
           info="Plenty of Dogs is a online dating service application for dogs, mimicking Plenty of Fish, a real-life online dating application."
           stacks={["HTML", "CSS", "JavaScript", "Bootstrap"]}
+        />
+        <OtherProject
+          name="LetsChat"
+          link="https://react-lets-chat.netlify.com/"
+          info="A real-time chat application built with React, Node, Socket.io where users may create rooms and chat with others online"
+          stacks={["React", "Node", "Socket.io", "Netlify", "Heroku"]}
         />
         <OtherProject
           name="Personal Website v1"

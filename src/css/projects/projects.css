@@ -112,12 +112,16 @@
   line-height: 1.4;
 }
 
-.FeaturedProjects .FeaturedProjects-Container .PlateauProject-Container .Plateau {
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Plateau {
   background-image: url("../../../src/images/plateau.png");
 }
 
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Booster {
+  background-image: url("../../../src/images/booster.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container {
-  margin-bottom: 80px;
+  margin: 70px 0;
 }
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container {
