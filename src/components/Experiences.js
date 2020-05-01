@@ -68,7 +68,7 @@ function Experiences() {
   };
 
   return (
-    <TrackVisibility partialVisibility once>
+    <TrackVisibility partialVisibility tag="a" once>
       <ComponentToTrack />
     </TrackVisibility>
   );
