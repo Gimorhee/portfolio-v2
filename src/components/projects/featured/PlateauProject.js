@@ -19,19 +19,15 @@ function PlateauProject() {
         </a>
       </div>
       <p className="Project-Info">
-        Plateau is a Fullstack eCommerce application built with MERN stacks. The
-        main purpose of the project was to learn how to manage React states
-        efficiently using Redux and write/use effcient Backend APIs and
-        retrieve/access these API data from the UI. User login is required to
-        complete orders and a confirmation email will be sent to user's provided
-        email upon the order completion.
+        Plateau is a Fullstack eCommerce application built with MERN stacks.
+        User login is required to complete orders and a confirmation email will
+        be sent to user's provided email upon the order completion.
       </p>
       <div className="Project-Note">
         <p>
-          By working on this fullstack application, I have learned a lot on MERN
-          stacks. Plus, writing my own backend APIs (authentication, order,
-          payment, etc) and using 3rd party library definitely provided me a
-          good experience.
+          The main purpose of the project was to learn how to manage React
+          states efficiently using Redux and write/use my own Backend APIs and
+          retrieve/access these data for the UI.
         </p>
       </div>
       <div className="Project-Stacks">

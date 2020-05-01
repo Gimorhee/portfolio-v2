@@ -84,12 +84,6 @@ function OtherProjects() {
             stacks={["HTML", "CSS", "JavaScript", "Vanilla JS"]}
           />
           <OtherProject
-            name="Movie Seat Booking"
-            link="https://gimorhee.github.io/MovieSeatBooking/"
-            info="Movie Seat booking application built with Vanilla JavaScript storing data in the local storage."
-            stacks={["HTML", "CSS", "JavaScript", "Local Storage"]}
-          />
-          <OtherProject
             name="Rock Paper Scissors"
             link="https://gimorhee.github.io/RockPaperScissors/"
             info="Simple mini Rock Paper Scissors being played against a Computer who randomly forms one of three shapes."

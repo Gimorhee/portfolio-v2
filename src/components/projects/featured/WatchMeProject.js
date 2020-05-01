@@ -31,7 +31,8 @@ export const WatchMeProject = () => {
       <div className="Project-Stacks">
         <span className="Project-Stack">React</span>
         <span className="Project-Stack">React-Spring</span>
-        <span className="Project-Stack">On-Screen</span>
+        <span className="Project-Stack">React-Image</span>
+        <span className="Project-Stack">React-On-Screen</span>
         <span className="Project-Stack">SCSS</span>
         <span className="Project-Stack">Netlify</span>
       </div>
