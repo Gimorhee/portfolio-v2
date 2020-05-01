@@ -110,12 +110,20 @@
 
     // PLATEAU PROJECT COMPONENT
     .FeaturedProject-Container {
+      .Margin-Top {
+        margin-top: 60px;
+      }
+
       .Plateau {
         background-image: url("../../../src/images/plateau.png");
       }
 
       .Booster {
         background-image: url("../../../src/images/booster.png");
+      }
+
+      .WatchMe {
+        background-image: url("../../../src/images/watchme.png");
       }
     }
 

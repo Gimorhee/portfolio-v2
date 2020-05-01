@@ -1,6 +1,7 @@
 import React from "react";
 
 import { BoosterProject } from "./BoosterProject";
+import { WatchMeProject } from "./WatchMeProject";
 import OnikonProjects from "./onikon/OnikonProjects";
 import PlateauProject from "./PlateauProject";
 
@@ -13,6 +14,7 @@ function FeaturedProjects() {
         <h1 className="Project-Header">FEATURED PROJECTS</h1>
         <div className="FeaturedProjects-Container">
           <BoosterProject />
+          <WatchMeProject />
           <OnikonProjects />
           <PlateauProject />
         </div>

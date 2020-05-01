@@ -112,12 +112,20 @@
   line-height: 1.4;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Margin-Top {
+  margin-top: 60px;
+}
+
 .FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Plateau {
   background-image: url("../../../src/images/plateau.png");
 }
 
 .FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Booster {
   background-image: url("../../../src/images/booster.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .WatchMe {
+  background-image: url("../../../src/images/watchme.png");
 }
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container {
