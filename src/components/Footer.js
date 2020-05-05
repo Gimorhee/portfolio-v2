@@ -38,9 +38,9 @@ function Footer() {
             <span className="FooterLink">LINKEDIN</span>
             <i className="fab fa-linkedin FooterLinkLogo"></i>
           </a>
-          <a href="https://www.facebook.com/" target="_blank">
-            <span className="FooterLink">FACEBOOK</span>
-            <i className="fab fa-facebook-square FooterLinkLogo"></i>
+          <a href="tel:604-788-7787" target="_blank">
+            <span className="FooterLink">CONTACT</span>
+            <i className="fas fa-phone-square FooterLinkLogo"></i>
           </a>
           <a
             href="https://resume.creddle.io/resume/2x8ao7cjdbn"
