@@ -30,7 +30,7 @@ function App() {
       <Experiences />
       <FeaturedProjects />
       <OtherProjects />
-      <SchoolProjects />
+      {/* <SchoolProjects /> */}
       <Footer />
     </div>
   );

@@ -186,6 +186,26 @@
         }
       }
 
+      .Bill {
+        background-image: url("../../../src/images/bill.png");
+      }
+
+      .Tomlee {
+        background-image: url("../../../src/images/tomlee.png");
+      }
+
+      .Rainmarketing {
+        background-image: url("../../../src/images/rainmarketing.png");
+      }
+
+      .Evergreen {
+        background-image: url("../../../src/images/evergreen.png");
+      }
+
+      .Fraserpark {
+        background-image: url("../../../src/images/fraserpark.png");
+      }
+
       .Narinder {
         background-image: url("../../../src/images/narinder.png");
       }
@@ -235,6 +255,7 @@
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 75px;
   padding: 80px 80px 0px 80px;
 
   .Project-Header {

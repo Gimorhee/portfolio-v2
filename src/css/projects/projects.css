@@ -183,6 +183,26 @@
   opacity: 1;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Bill {
+  background-image: url("../../../src/images/bill.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Tomlee {
+  background-image: url("../../../src/images/tomlee.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Rainmarketing {
+  background-image: url("../../../src/images/rainmarketing.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Evergreen {
+  background-image: url("../../../src/images/evergreen.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Fraserpark {
+  background-image: url("../../../src/images/fraserpark.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Narinder {
   background-image: url("../../../src/images/narinder.png");
 }
@@ -235,6 +255,7 @@
           justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 75px;
   padding: 80px 80px 0px 80px;
 }
 

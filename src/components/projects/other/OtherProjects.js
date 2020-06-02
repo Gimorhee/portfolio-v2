@@ -72,6 +72,18 @@ function OtherProjects() {
             ]}
           />
           <OtherProject
+            name="Cards Against the Internet"
+            link="https://github.com/Gimorhee/Cards-Against-the-Internet"
+            info="A clone web application of a card game, Cards against Humanity built as a Final project with 2 other teammates. In this project, I heavily worked on the Frontend side and a little bit of Backend."
+            stacks={[
+              "React",
+              "Bootstrap",
+              "Ruby on Rails",
+              "Actioncable",
+              "Postgres",
+            ]}
+          />
+          {/* <OtherProject
             name="Simon Game"
             link="https://gimorhee.github.io/SimonGame/"
             info="Built a Web version of Simon, an electronic game of memory skill. It creates a random series of tones and color-lights and requrie a user to repeat the sequence."
@@ -88,7 +100,7 @@ function OtherProjects() {
             link="https://gimorhee.github.io/RockPaperScissors/"
             info="Simple mini Rock Paper Scissors being played against a Computer who randomly forms one of three shapes."
             stacks={["HTML", "CSS", "JavaScript", "jQuery"]}
-          />
+          /> */}
         </animated.div>
       </div>
     );

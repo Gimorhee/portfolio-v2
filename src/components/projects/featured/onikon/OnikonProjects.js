@@ -7,11 +7,11 @@ import "../../../../css/projects/projects.css";
 function OnikonProjects() {
   return (
     <div className="OnikonProject-Container">
-      <h1 className="Project-Header">Real Estate Website</h1>
+      <h1 className="Project-Header">Websites for the clients</h1>
       <OnikonCarousel />
       <p className="Project-Info">
         Projects built upon our clients' design and functionality requirements
-        at Onikon Creative Inc. Through our websites and custom built IDX API
+        at ONIKON Creative Inc. Through these websites and custom built API
         Plugins, our clients and their customers will be able to efficiently
         communicate, access and retrieve the Real Estate information.
       </p>

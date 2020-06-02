@@ -32,6 +32,56 @@ function OnikonCarousel() {
     <div className="Onikon-Carousel-Container">
       <Slider {...settings}>
         <a
+          className="Single-Container Evergreen"
+          href="https://evergreentownhomes.ca/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Tomlee"
+          href="http://tomleecollege.ca/home/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Bill"
+          href="http://dritsasrealty.com/home/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Rainmarketing"
+          href="https://rainmarketing.ca/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Fraserpark"
+          href="http://fraserparkrealty.com/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
           className="Single-Container Narinder"
           href="https://new.narinderbains.com/"
           target="_blank"
@@ -71,7 +121,7 @@ function OnikonCarousel() {
             <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
-        <a
+        {/* <a
           className="Single-Container Bassi"
           href="https://new.bassirealestate.com/"
           target="_blank"
@@ -80,7 +130,7 @@ function OnikonCarousel() {
           <span className="Project-Name">
             <i className="fas fa-external-link-alt"></i>
           </span>
-        </a>
+        </a> */}
         <a
           className="Single-Container Cory"
           href="https://gregandcory.ca/"

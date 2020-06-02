@@ -31,7 +31,7 @@ function Background() {
               {" "}
               I'm currently working as a Frontend Developer at{" "}
               <a href="https://onikon.com/" target="_blank">
-                Onikon Creative Inc.
+                ONIKON Creative Inc.
               </a>{" "}
               creating products and services for the web with some awesome
               people. I am a formal Product Engineer graduated from{" "}

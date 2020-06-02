@@ -48,13 +48,13 @@ function SchoolProjects() {
               info="Mini eCommerce application built with Ruby on Rails. Jungle was built with users in mind from the main catalog to each products detail pages."
               stacks={["Ruby", "Ruby on Rails", "Stripe"]}
             />
-            <OtherProject
+            {/* <OtherProject
               name="Chatty App"
               link="https://github.com/Gimorhee/Chatty-App"
               info="A single page, real-time chat application which allows users to communicate each other without having to register accounts."
               stacks={["React", "Websocket", "Node", "Express"]}
-            />
-            <OtherProject
+            /> */}
+            {/* <OtherProject
               name="Pizza Guys"
               link="https://github.com/Gimorhee/Pizza-Guys"
               info="My first group project built for midterm. Pizza guys is a food pick-up ordering web app which allows the customers to place an order and pick up in store."
@@ -67,7 +67,7 @@ function SchoolProjects() {
                 "Knex",
                 "Twilio",
               ]}
-            />
+            /> */}
           </animated.div>
         </div>
       </div>

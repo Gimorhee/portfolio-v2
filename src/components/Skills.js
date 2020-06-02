@@ -77,7 +77,6 @@ function Skills() {
               <li>User Testing</li>
               <li>User Research</li>
               <li>Wireframing</li>
-              <li>inVision</li>
             </ul>
           </div>
         </animated.div>
