@@ -15,11 +15,11 @@
   font-weight: 900;
   font-size: 21px;
   letter-spacing: 3px;
-  padding: 0 15px 50px 15px;
+  margin-right: 30px;
+  margin-bottom: 40px;
 }
 
 .Experiences .Experiences-Container {
-  padding: 0 15px;
   max-width: 800px;
   width: 100%;
   display: -webkit-box;
@@ -148,13 +148,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 150px 50px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .Experiences {
-    padding: 150px 30px;
+    padding: 150px 35px;
   }
 }
 
@@ -170,6 +164,30 @@
   }
   .Experiences .Experiences-Container .Experience-Container .Company-Period {
     margin-top: 10px;
+  }
+  .Experiences .Resume-Link {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Experiences {
+    padding: 100px 25px;
+  }
+  .Experiences .Experiences-Container .Company-Name {
+    font-size: 17px !important;
+  }
+  .Experiences .Experiences-Container .Company-Position {
+    font-size: 16px !important;
+  }
+  .Experiences .Experiences-Container .Company-Period {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Experiences {
+    padding: 100px 15px;
   }
 }
 /*# sourceMappingURL=experiences.css.map */

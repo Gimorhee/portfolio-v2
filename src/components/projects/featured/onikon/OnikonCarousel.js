@@ -13,7 +13,6 @@ function OnikonCarousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: false,
     autoplaySpeed: 3500,
     cssEase: "linear",
     responsive: [
@@ -32,8 +31,8 @@ function OnikonCarousel() {
     <div className="Onikon-Carousel-Container">
       <Slider {...settings}>
         <a
-          className="Single-Container Evergreen"
-          href="https://evergreentownhomes.ca/"
+          className="Single-Container Rainmarketing"
+          href="https://rainmarketing.ca/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -52,8 +51,8 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Bill"
-          href="http://dritsasrealty.com/home/"
+          className="Single-Container Evergreen"
+          href="https://evergreentownhomes.ca/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -62,8 +61,8 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Rainmarketing"
-          href="https://rainmarketing.ca/"
+          className="Single-Container Bill"
+          href="http://dritsasrealty.com/home/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>

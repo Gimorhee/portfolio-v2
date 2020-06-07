@@ -65,6 +65,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .Background {
+    padding: 0 35px;
+  }
   .Background .outterContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -73,9 +76,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0 15px;
+    margin: 0;
+  }
+  .Background .outterContainer .Bg-Header {
+    margin: 25px 0;
   }
   .Background .outterContainer .Bg-Container {
+    margin: 25px 0;
     font-size: 18px;
   }
   .Background .outterContainer .Bg-Container a {
@@ -84,9 +91,6 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .Background {
-    padding: 30px 0;
-  }
   .Background .outterContainer .Bg-Container {
     font-size: 17px;
   }
@@ -95,15 +99,29 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .Background {
-    padding: 0;
+    padding: 0 25px;
   }
-  .Background .outterContainer .Bg-Container {
-    font-size: 17px;
+}
+
+@media only screen and (max-width: 375px) {
+  .Background {
+    padding: 0 15px;
   }
-  .Background .outterContainer .Bg-Container a {
-    font-size: 17px;
+}
+
+@media only screen and (max-width: 350px) {
+  .Background {
+    padding: 0 15px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+  }
+  .Background .Bg-Container {
+    font-size: 16px !important;
+  }
+  .Background .Bg-Container a {
+    font-size: 16px !important;
   }
 }
 /*# sourceMappingURL=background.css.map */

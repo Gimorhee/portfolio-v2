@@ -324,10 +324,10 @@
 
 @media only screen and (max-width: 550px) {
   .Header {
-    padding: 120px 45px;
+    padding: 120px 35px;
   }
   .Header h1 {
-    font-size: 1.6rem;
+    font-size: 1.66rem;
   }
   .Header h2 {
     font-size: 1.5rem;
@@ -344,9 +344,15 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .Header {
+    padding: 100px 25px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .Header {
-    padding: 120px 35px;
+    padding: 110px 15px;
   }
   .Header h1 {
     font-size: 1.4rem;
