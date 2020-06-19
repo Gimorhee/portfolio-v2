@@ -41,8 +41,8 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Tomlee"
-          href="http://tomleecollege.ca/home/"
+          className="Single-Container Matt"
+          href="https://listbuysell.ca/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -53,6 +53,16 @@ function OnikonCarousel() {
         <a
           className="Single-Container Evergreen"
           href="https://evergreentownhomes.ca/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Tomlee"
+          href="http://tomleecollege.ca/home/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -120,16 +130,6 @@ function OnikonCarousel() {
             <i className="fas fa-external-link-alt"></i>
           </span>
         </a>
-        {/* <a
-          className="Single-Container Bassi"
-          href="https://new.bassirealestate.com/"
-          target="_blank"
-        >
-          <div className="Single-Inner-Container"></div>
-          <span className="Project-Name">
-            <i className="fas fa-external-link-alt"></i>
-          </span>
-        </a> */}
         <a
           className="Single-Container Cory"
           href="https://gregandcory.ca/"

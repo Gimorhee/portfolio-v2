@@ -185,6 +185,10 @@
   background-image: url("../../../src/images/bill.png");
 }
 
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Matt {
+  background-image: url("../../../src/images/matt.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Tomlee {
   background-image: url("../../../src/images/tomlee.png");
 }
