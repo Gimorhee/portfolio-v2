@@ -112,7 +112,7 @@ function OnikonCarousel() {
         </a>
         <a
           className="Single-Container Jessi"
-          href="https://jess.onikondev.com/"
+          href="https://jessbaxter.com/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
