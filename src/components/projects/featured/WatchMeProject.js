@@ -21,13 +21,13 @@ export const WatchMeProject = () => {
         and customizing. Watch Me offers a wide assortment of Classic and Luxury
         watch models and services to suffice all customers needs.
       </p>
-      <div className="Project-Note">
+      {/* <div className="Project-Note">
         <p>
           By working on Watch Me, I learned a lot on structuring the UI
           components in more clear and efficient ways as well as desining more
           appealing and user-friendly UI to provide Superb UX.
         </p>
-      </div>
+      </div> */}
       <div className="Project-Stacks">
         <span className="Project-Stack">React</span>
         <span className="Project-Stack">React-Spring</span>

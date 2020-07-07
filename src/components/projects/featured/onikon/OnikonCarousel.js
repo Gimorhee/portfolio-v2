@@ -31,6 +31,16 @@ function OnikonCarousel() {
     <div className="Onikon-Carousel-Container">
       <Slider {...settings}>
         <a
+          className="Single-Container Evergreen"
+          href="https://evergreentownhomes.ca/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
           className="Single-Container Rainmarketing"
           href="https://rainmarketing.ca/"
           target="_blank"
@@ -43,16 +53,6 @@ function OnikonCarousel() {
         <a
           className="Single-Container Matt"
           href="https://listbuysell.ca/"
-          target="_blank"
-        >
-          <div className="Single-Inner-Container"></div>
-          <span className="Project-Name">
-            <i className="fas fa-external-link-alt"></i>
-          </span>
-        </a>
-        <a
-          className="Single-Container Evergreen"
-          href="https://evergreentownhomes.ca/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>

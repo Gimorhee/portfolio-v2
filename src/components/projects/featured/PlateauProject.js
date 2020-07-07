@@ -23,13 +23,13 @@ function PlateauProject() {
         User login is required to complete orders and a confirmation email will
         be sent to user's provided email upon the order completion.
       </p>
-      <div className="Project-Note">
+      {/* <div className="Project-Note">
         <p>
           The main purpose of the project was to learn how to manage React
           states efficiently using Redux and write/use my own Backend APIs and
           retrieve/access these data for the UI.
         </p>
-      </div>
+      </div> */}
       <div className="Project-Stacks">
         <span className="Project-Stack">React</span>
         <span className="Project-Stack">Redux</span>

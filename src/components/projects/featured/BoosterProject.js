@@ -22,14 +22,14 @@ export const BoosterProject = () => {
         internet connection, reduced latency, lower ping, and far fewer lost
         packets to experience a superior gaming experience.
       </p>
-      <div className="Project-Note">
+      {/* <div className="Project-Note">
         <p>
           By working on Booster, I learned a lot on implementing UI animations
           on different components using third party libraries as well as making
           the application fully responsive and user-friendly on all other device
           resolutions.
         </p>
-      </div>
+      </div> */}
       <div className="Project-Stacks">
         <span className="Project-Stack">React</span>
         <span className="Project-Stack">React-Spring</span>
