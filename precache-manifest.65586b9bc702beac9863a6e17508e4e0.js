@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f57c14de22f48410da0b48f1987b2437",
+    "revision": "21297c46f64c9c6a00c49ebd3e04d92f",
     "url": "/portfolio-v2/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/css/2.a4f1ce6d.chunk.css"
   },
   {
-    "revision": "c341ab2c56303480f6af",
-    "url": "/portfolio-v2/static/css/main.b3699a2c.chunk.css"
+    "revision": "fb23ce77cac005ea7fff",
+    "url": "/portfolio-v2/static/css/main.da3013da.chunk.css"
   },
   {
     "revision": "c9ed19e22bea8b021fa8",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/js/2.ec6fce6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c341ab2c56303480f6af",
-    "url": "/portfolio-v2/static/js/main.cd6cf19c.chunk.js"
+    "revision": "fb23ce77cac005ea7fff",
+    "url": "/portfolio-v2/static/js/main.29e56ae3.chunk.js"
   },
   {
     "revision": "0b7fd6723511e5e12bfa",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "267ca778ccbbe5398ac25681d3e0363b",
     "url": "/portfolio-v2/static/media/alex.267ca778.png"
+  },
+  {
+    "revision": "0c20f626e8c028f9bbab563c175a619a",
+    "url": "/portfolio-v2/static/media/andrea.0c20f626.png"
   },
   {
     "revision": "b1526552a252c63ca0102ff300cd1432",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f786e47a029e971e0c3df6942c2525d2",
     "url": "/portfolio-v2/static/media/booster.f786e47a.png"
+  },
+  {
+    "revision": "e57301335f63bbf8124bcda51e2c74ea",
+    "url": "/portfolio-v2/static/media/cafejess2.e5730133.png"
   },
   {
     "revision": "b7d23c196ebede63e74fab528aef14ab",
@@ -68,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/media/matt.cd608f18.png"
   },
   {
+    "revision": "1239caf171dd05e196d577cb7dfd26f6",
+    "url": "/portfolio-v2/static/media/mike.1239caf1.png"
+  },
+  {
     "revision": "ea659fdb9ceac083a72ebc9d106e1995",
     "url": "/portfolio-v2/static/media/narinder.ea659fdb.png"
+  },
+  {
+    "revision": "a247deb57c14bb8ac2c76d9d0fb1e6ea",
+    "url": "/portfolio-v2/static/media/pawan.a247deb5.png"
   },
   {
     "revision": "c12037565bc89adbea7bfef08f2c9b08",
