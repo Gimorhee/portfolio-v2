@@ -31,6 +31,16 @@ function OnikonCarousel() {
     <div className="Onikon-Carousel-Container">
       <Slider {...settings}>
         <a
+          className="Single-Container Rainmarketing"
+          href="https://rainmarketing.ca/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
           className="Single-Container Evergreen"
           href="https://evergreentownhomes.ca/"
           target="_blank"
@@ -41,8 +51,18 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Rainmarketing"
-          href="https://rainmarketing.ca/"
+          className="Single-Container Andrea"
+          href="http://andrea.onikondev.com/home/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Mike"
+          href="https://www.mikemarfori.com/grandview-collection-at-grandview-heights/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -61,6 +81,16 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
+          className="Single-Container Bill"
+          href="http://dritsasrealty.com/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
           className="Single-Container Tomlee"
           href="http://tomleecollege.ca/home/"
           target="_blank"
@@ -71,8 +101,8 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Bill"
-          href="http://dritsasrealty.com/home/"
+          className="Single-Container Fraserpark"
+          href="http://fraserparkrealty.com/home"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -81,8 +111,18 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Fraserpark"
-          href="http://fraserparkrealty.com/"
+          className="Single-Container CafeJess"
+          href="http://cafejess.onikondev.com/demo"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Pawan"
+          href="http://pawan.onikondev.com/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
@@ -123,16 +163,6 @@ function OnikonCarousel() {
         <a
           className="Single-Container Alex"
           href="https://alexmaldeis.com/"
-          target="_blank"
-        >
-          <div className="Single-Inner-Container"></div>
-          <span className="Project-Name">
-            <i className="fas fa-external-link-alt"></i>
-          </span>
-        </a>
-        <a
-          className="Single-Container Cory"
-          href="https://gregandcory.ca/"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>
