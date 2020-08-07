@@ -29,7 +29,7 @@ function Experiences() {
 
         <animated.div style={bottomProps} className="Experiences-Container">
           <Experience
-            name="Onikon Creative Inc."
+            name="ONIKON Creative Inc."
             title="Jr. Frontend Developer"
             period="Jan 2020 - Current"
             link="https://onikon.com/"
@@ -41,7 +41,7 @@ function Experiences() {
             link="https://www.kater.com/"
           />
           <Experience
-            name="Euroline Windows"
+            name="Euroline Windows Inc."
             title="Product Engineer"
             period="Aug 2018 - Mar 2019"
             link="https://euroline-windows.com/"
