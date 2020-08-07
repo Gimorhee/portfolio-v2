@@ -3,6 +3,7 @@ import { BoosterProject } from "./BoosterProject";
 import { WatchMeProject } from "./WatchMeProject";
 import OnikonProjects from "./onikon/OnikonProjects";
 import PlateauProject from "./PlateauProject";
+import { NomiProject } from "./NomiProject";
 import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
@@ -34,6 +35,7 @@ function FeaturedProjects() {
           className="FeaturedProjects-Container"
         >
           <BoosterProject />
+          <NomiProject />
           <WatchMeProject />
           <OnikonProjects />
           <PlateauProject />

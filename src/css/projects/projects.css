@@ -126,6 +126,10 @@
   background-image: url("../../../src/images/watchme.png");
 }
 
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Nomi {
+  background-image: url("../../../src/images/nomi-landing.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container {
   margin: 70px 0;
 }
