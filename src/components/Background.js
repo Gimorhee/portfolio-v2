@@ -63,7 +63,7 @@ function Background() {
 
             <p>
               <span>When I'm not coding,</span> I will most likely be playing
-              video games, baksetball, snowboarding, working-out or watching
+              video games, basketball, snowboarding, working-out or watching
               Netflix.
             </p>
           </animated.div>
