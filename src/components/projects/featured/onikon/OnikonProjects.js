@@ -32,8 +32,10 @@ function OnikonProjects() {
         <span className="Project-Stack">Wordpress</span>
         <span className="Project-Stack">PHP</span>
         <span className="Project-Stack">SQL</span>
-        <span className="Project-Stack">reCAPTCHA</span>
         <span className="Project-Stack">SSL</span>
+        <span className="Project-Stack">Google reCAPTCHA</span>
+        <span className="Project-Stack">Google Search Console</span>
+        <span className="Project-Stack">Google Analytics</span>
       </div>
     </div>
   );

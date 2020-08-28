@@ -185,6 +185,14 @@
   opacity: 1;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Kaz {
+  background-image: url("../../../src/images/kaz.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Westport {
+  background-image: url("../../../src/images/westport.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .CafeJess {
   background-image: url("../../../src/images/cafejess2.png");
 }
