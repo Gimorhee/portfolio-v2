@@ -65,7 +65,7 @@ function Header() {
       <animated.div style={bottomProps}>
         <p>
           Get in touch 👉{" "}
-          <a href="malto:dongyunrhee@gmail.com" target="_blank">
+          <a href="mailto:dongyunrhee@gmail.com" target="_blank">
             dongyunrhee@gmail.com
           </a>
         </p>

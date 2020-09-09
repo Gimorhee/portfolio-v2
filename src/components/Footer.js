@@ -26,7 +26,7 @@ function Footer() {
           <h1>Created & Developed by Danny Rhee 👍 2020</h1>
         </animated.div>
         <animated.div style={bottomProps} className="FooterLinks">
-          <a href="malto:dongyunrhee@gmail.com" target="_blank">
+          <a href="mailto:dongyunrhee@gmail.com" target="_blank">
             <span className="FooterLink">EMAIL</span>
             <i className="far fa-envelope FooterLinkLogo"></i>
           </a>

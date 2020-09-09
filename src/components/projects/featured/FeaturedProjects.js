@@ -1,4 +1,5 @@
 import React from "react";
+import { VsCorona } from "./VsCorona";
 import { BoosterProject } from "./BoosterProject";
 import { WatchMeProject } from "./WatchMeProject";
 import OnikonProjects from "./onikon/OnikonProjects";
@@ -34,6 +35,7 @@ function FeaturedProjects() {
           style={bottomProps}
           className="FeaturedProjects-Container"
         >
+          <VsCorona />
           <BoosterProject />
           <NomiProject />
           <WatchMeProject />

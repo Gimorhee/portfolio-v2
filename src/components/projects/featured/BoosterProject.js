@@ -3,7 +3,7 @@ import React from "react";
 export const BoosterProject = () => {
   return (
     <div className="FeaturedProject-Container">
-      <h1 className="Project-Header">Booster</h1>
+      <h1 className="Project-Header Margin-Top">Booster</h1>
       <div className="Project-Image-Container">
         <a
           className="Project-Image Booster"

@@ -3,7 +3,7 @@ import React from "react";
 export const NomiProject = () => {
   return (
     <div className="FeaturedProject-Container">
-      <h1 className="Project-Header  Margin-Top">Nomi Malik Landing Page</h1>
+      <h1 className="Project-Header Margin-Top">Nomi Malik Landing Page</h1>
       <div className="Project-Image-Container">
         <a
           className="Project-Image Nomi"

@@ -114,6 +114,10 @@
   margin-top: 60px;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .VsCorona {
+  background-image: url("../../../src/images/vsCorona.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Plateau {
   background-image: url("../../../src/images/plateau1.png");
 }
