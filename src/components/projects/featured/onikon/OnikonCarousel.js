@@ -81,16 +81,6 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
-          className="Single-Container Kaz"
-          href="https://kazhassan.com/"
-          target="_blank"
-        >
-          <div className="Single-Inner-Container"></div>
-          <span className="Project-Name">
-            <i className="fas fa-external-link-alt"></i>
-          </span>
-        </a>
-        <a
           className="Single-Container Bill"
           href="http://dritsasrealty.com/"
           target="_blank"
@@ -111,6 +101,36 @@ function OnikonCarousel() {
           </span>
         </a>
         <a
+          className="Single-Container CafeJess"
+          href="http://cafejess.onikondev.com/demo"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Karter"
+          href="https://krrealtors.ca/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
+          className="Single-Container Kaz"
+          href="https://kazhassan.com/"
+          target="_blank"
+        >
+          <div className="Single-Inner-Container"></div>
+          <span className="Project-Name">
+            <i className="fas fa-external-link-alt"></i>
+          </span>
+        </a>
+        <a
           className="Single-Container Fraserpark"
           href="http://fraserparkrealty.com/home"
           target="_blank"
@@ -123,16 +143,6 @@ function OnikonCarousel() {
         <a
           className="Single-Container Matt"
           href="https://listbuysell.ca/"
-          target="_blank"
-        >
-          <div className="Single-Inner-Container"></div>
-          <span className="Project-Name">
-            <i className="fas fa-external-link-alt"></i>
-          </span>
-        </a>
-        <a
-          className="Single-Container CafeJess"
-          href="http://cafejess.onikondev.com/demo"
           target="_blank"
         >
           <div className="Single-Inner-Container"></div>

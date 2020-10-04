@@ -189,6 +189,10 @@
   opacity: 1;
 }
 
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Karter {
+  background-image: url("../../../src/images/karter.png");
+}
+
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Kaz {
   background-image: url("../../../src/images/kaz.png");
 }

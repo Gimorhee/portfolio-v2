@@ -16,14 +16,6 @@ function OnikonProjects() {
         customers are now able to efficiently communicate, access and retrieve
         the Real Estate information.
       </p>
-      {/* <div className="Project-Note">
-        <p>
-          I was responsible for developing all UI pages and implementing
-          functionalities, such as our custom built IDX API Plugins. Currently,
-          I am working on implementing new designs and features on our API
-          Plugins using Vue and Vuesax 👍.
-        </p>
-      </div> */}
       <div className="Project-Stacks">
         <span className="Project-Stack">HTML</span>
         <span className="Project-Stack">SCSS</span>
