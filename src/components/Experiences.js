@@ -28,35 +28,12 @@ function Experiences() {
         </animated.div>
 
         <animated.div style={bottomProps} className="Experiences-Container">
-          <Experience
-            name="ONIKON Creative Inc."
-            title="Jr. Frontend Developer"
-            period="Jan 2020 - Current"
-            link="https://onikon.com/"
-          />
-          <Experience
-            name="Kater"
-            title="Web Developer Intern"
-            period="Jul 2019 - Nov 2019"
-            link="https://www.kater.com/"
-          />
-          <Experience
-            name="Euroline Windows Inc."
-            title="Product Engineer"
-            period="Aug 2018 - Mar 2019"
-            link="https://euroline-windows.com/"
-          />
-          <Experience
-            name="INI Solutions"
-            title="Software Technician"
-            period="Sept 2016 - Aug 2018"
-            link="http://www.inipos.com/"
-          />
-          <a
-            className="Resume-Link"
-            href="https://resume.creddle.io/resume/2x8ao7cjdbn"
-            target="_blank"
-          >
+          <Experience name="Mapster" title="Jr. Web Developer" period="Oct 2020 - Current" link="https://mapster.me/" />
+          <Experience name="ONIKON Creative" title="Jr. Frontend Developer" period="Jan 2020 - Oct 2020" link="https://onikon.com/" />
+          <Experience name="Kater" title="Web Developer Intern" period="Jul 2019 - Nov 2019" link="https://www.kater.com/" />
+          <Experience name="Euroline Windows" title="Product Engineer" period="Aug 2018 - Mar 2019" link="https://euroline-windows.com/" />
+          <Experience name="INI Solutions" title="Software Technician" period="Sept 2016 - Aug 2018" link="http://www.inipos.com/" />
+          <a className="Resume-Link" href="https://resume.creddle.io/resume/2x8ao7cjdbn" target="_blank">
             View My Resume{" "}
             <span className="Resume" role="img">
               📄
